@@ -5,6 +5,7 @@ audio_default	= [
 ]
 
 image_default	= [
+	{ command = "imv", silent = true },
 	{ command = "qimgv", args = [ "--" ], fork = true, silent = true },
 	{ command = "krita", args = [ "--" ], fork = true, silent = true },
 	{ command = "exiftool", confirm_exit = true },
